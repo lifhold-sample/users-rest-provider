@@ -1,0 +1,19 @@
+{
+    "name": "lifhold-sample/users-http-provider",
+    "authors": [
+        {
+            "name": "Lukasz Grajewski",
+            "email": "grajewski.lukasz@wp.pl"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Lifhold\\Users\\Rest\\": "src/"
+        }
+    },
+    "require": {
+        "illuminate/support": "~7.0 || ~8.0",
+        "illuminate/http": "~7.0 || ~8.0",
+        "guzzlehttp/guzzle": "^7"
+    }
+}
