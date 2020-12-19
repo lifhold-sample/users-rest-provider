@@ -14,6 +14,9 @@
     "require": {
         "illuminate/support": "~7.0 || ~8.0",
         "illuminate/http": "~7.0 || ~8.0",
-        "guzzlehttp/guzzle": "^7"
-    }
+        "guzzlehttp/guzzle": "^7",
+        "lifhold-sample/users-contracts": "dev-master"
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
 }
